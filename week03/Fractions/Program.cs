@@ -13,20 +13,15 @@ class Program
         Fraction twoFraction = new Fraction(2, 7);
         Console.WriteLine($"Frac3: {twoFraction.GetTop()}/{twoFraction.GetBottom()}");
 
-        double decDefault = defaultFraction.GetDecimalValue();
-        Console.WriteLine(decDefault);
-        string strDefault = defaultFraction.GetFractionString();
-        Console.WriteLine(strDefault);
+        
+        Console.WriteLine(defaultFraction.GetDecimalValue());
+        Console.WriteLine(defaultFraction.GetFractionString());
 
-        double decOne = oneFraction.GetDecimalValue();
-        Console.WriteLine(decOne);
-        string strOne = oneFraction.GetFractionString();
-        Console.WriteLine(strOne);
+        Console.WriteLine(oneFraction.GetDecimalValue());
+        Console.WriteLine(oneFraction.GetFractionString());
 
-        double decTwo = twoFraction.GetDecimalValue();
-        Console.WriteLine(decTwo);
-        string strTwo = twoFraction.GetFractionString();
-        Console.WriteLine(strTwo);
+        Console.WriteLine(twoFraction.GetDecimalValue());
+        Console.WriteLine(twoFraction.GetFractionString());
 
 
     }
