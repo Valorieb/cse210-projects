@@ -22,7 +22,8 @@ class Program
                 Console.Clear();
                 thisScripture.HideRandomWords(3);
                 Console.WriteLine(thisScripture.GetDisplayText());
-                if(thisScripture.IsCompletelyHidden()){
+                if (thisScripture.IsCompletelyHidden())
+                {
                     Console.WriteLine("\nCompletely Hidden");
                     break;
                 }

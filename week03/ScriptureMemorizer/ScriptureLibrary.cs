@@ -1,20 +1,19 @@
-public class ScriptureLibrary {
+public class ScriptureLibrary
+{
     private Reference scrip1;
     private Reference scrip2;
     private Reference scrip3;
     private Reference scrip4;
     private Reference scrip5;
 
-
     private List<Scripture> scriptureLibrary;
-
     public ScriptureLibrary()
     {
         Reference scrip1 = new Reference("John", 3, 5);
         Reference scrip2 = new Reference("Matthew", 5, 14, 16);
         Reference scrip3 = new Reference("2 Nephi", 2, 25);
         Reference scrip4 = new Reference("Moroni", 10, 4, 5);
-        Reference scrip5 = new Reference("3 Nephi",27,27);
+        Reference scrip5 = new Reference("3 Nephi", 27, 27);
 
         scriptureLibrary = new List<Scripture>
         {
@@ -25,18 +24,17 @@ public class ScriptureLibrary {
             new Scripture(scrip5, "And know ye that ye shall be judges of this people, according to the judgment which I shall give unto you, which shall be just. Therefore, what manner of men ought ye to be? Verily I say unto you, even as I am."),
         };
     }
-    public Scripture GetRandomScripture(){
+    public Scripture GetRandomScripture()
+    {
 
         Random random = new Random();
         return scriptureLibrary[random.Next(scriptureLibrary.Count)];
     }
 
-
     public void AddScripture(Scripture scripture)
     {
         scriptureLibrary.Add(scripture);
     }
-
     public int GetScriptureCount()
     {
         return scriptureLibrary.Count;
