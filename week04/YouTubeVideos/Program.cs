@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the YouTubeVideos Project.");
+        VideoLibrary videoLibrary = new VideoLibrary();
+        string viewLibrary = videoLibrary.DisplayLibrary();
+        Console.WriteLine(viewLibrary);
+
     }
 }
