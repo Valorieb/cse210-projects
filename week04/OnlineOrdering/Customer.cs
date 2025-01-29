@@ -28,9 +28,6 @@ namespace OnlineOrdering
             }
         }
 
-        // public string DisplayCustomerInfo(){
-        //     return $"{_name} {_address}"
-        // }
         public string DisplayCustomerName()
         {
             return _name;

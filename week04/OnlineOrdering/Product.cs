@@ -13,7 +13,6 @@ namespace OnlineOrdering
         private int _quantity;
 
 
-
         public Product(string prodName, string prodID, double price, int quantity)
         {
             _prodName = prodName;
@@ -36,6 +35,5 @@ namespace OnlineOrdering
         {
             return _prodID;
         }
-
     }
 }

@@ -10,8 +10,6 @@ namespace OnlineOrdering
         private double _totalOrderPrice;
         private int _shippingCost;
         private Customer _customer;
-        private Address _address;
-        private Product _product;
         private double prodTotal;
         private List<Product> _productList = new List<Product>();
 
@@ -25,10 +23,6 @@ namespace OnlineOrdering
             _customer = customer;
             _productList = productList;
         }
-
-        
-
-        
 
         public double OrderTotal()
         {

@@ -38,19 +38,6 @@ class Program
         Console.WriteLine("\n-----Order Two-----\n");
         Console.WriteLine($"Total: ${total2}");
         order2.PackingLabel();
-        order2.ShippingLabel();
-
-        // double total2 = order2.OrderTotal();
-        // string pack2 = order2.PackingLabel();
-        // string ship2 = order2.ShippingLabel();
-
-        // Console.WriteLine($"\nFirst Order:");
-        // Console.WriteLine($"\nTotal:{total1}\nShipping label: {ship1}\nPacking label{pack1}");
-        // Console.WriteLine("\n----------\n");
-
-        // Console.WriteLine($"\nSecond Order:");
-        // Console.WriteLine($"\nTotal:{total2}\nShipping label: {ship2}\nPacking label{pack2}");
-        
-        
+        order2.ShippingLabel();        
     }
 }

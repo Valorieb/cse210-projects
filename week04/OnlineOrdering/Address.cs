@@ -39,6 +39,5 @@ namespace OnlineOrdering
         {
             return $"{_street}\n{_city}, {_state}\n{_country}";
         }
-
     }
 }
