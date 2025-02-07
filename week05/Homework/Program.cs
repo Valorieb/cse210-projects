@@ -18,6 +18,4 @@ class Program
         Console.Write(write1.GetSummary());
         Console.WriteLine(write1.GetWritingInformation());
     }
-
-    
 }
