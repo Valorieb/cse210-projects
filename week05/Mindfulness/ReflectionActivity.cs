@@ -64,14 +64,12 @@ namespace Mindfulness
                     foreach (string question in _questions)
                     {
                        if (elapsedTime >= TimeSpan.FromSeconds(Duration))
-                {
-                    break;
-                }
-
+                        {
+                            break;
+                        }
                 DisplayQuestion();
                 ShowSpinner(5);
                 Thread.Sleep(300);
-
                 elapsedTime = DateTime.Now - startTime;
                     }
                 }
