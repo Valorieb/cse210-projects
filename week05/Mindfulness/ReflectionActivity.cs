@@ -67,10 +67,10 @@ namespace Mindfulness
                         {
                             break;
                         }
-                DisplayQuestion();
-                ShowSpinner(5);
-                Thread.Sleep(300);
-                elapsedTime = DateTime.Now - startTime;
+                        DisplayQuestion();
+                        ShowSpinner(5);
+                        Thread.Sleep(300);
+                        elapsedTime = DateTime.Now - startTime;
                     }
                 }
             }
